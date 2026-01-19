@@ -45,6 +45,8 @@ I have designed and implemented a "Security-First" web architecture. Below is th
 - I have successfully confirmed that the website is accessible via the CloudFront Domain Name over a secure HTTPS connection.
 
 ## Architecture Diagram
+![Architecture Diagram of Project 2](https://github.com/user-attachments/assets/f4dca61d-be63-4fbd-b9aa-f40bbb1ee58d)
+
 
 ## Screenshots
 - S3 Bucket Permissions (Public Access Blocked)

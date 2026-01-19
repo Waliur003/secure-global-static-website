@@ -57,7 +57,8 @@ I have designed and implemented a "Security-First" web architecture. Below is th
   <img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/a4e68772-117b-4db3-b8b7-22c9ca787605" />
 
 - Live Secure Website (HTTPS Padlock Visible)
-  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4bd029d-bcb5-49bc-a07c-3b6f68c78ee2" />
+  <img width="1920" height="969" alt="Screenshot 4" src="https://github.com/user-attachments/assets/dea1eafd-c613-4fb6-b5bd-dd529b292c6a" />
+
 
 ## Notes / Future Improvements
 - Implement Infrastructure as Code (IaC) using Terraform to automate the deployment of the entire stack.

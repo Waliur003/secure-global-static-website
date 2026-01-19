@@ -20,7 +20,7 @@ I have utilized Amazon CloudFront to cache content at edge locations worldwide, 
 - Storage: Amazon S3 (Private Origin)
 - Security: AWS WAF (Web Application Firewall)
 - Delivery: Amazon CloudFront (CDN)
-- DNS & SSL: Amazon Route 53 & AWS Certificate Manager (ACM)
+- DNS & SSL: Amazon Route 53 
 
 ## Project Procedure
 I have designed and implemented a "Security-First" web architecture. Below is the step-by-step procedure I have followed:
@@ -37,7 +37,6 @@ I have designed and implemented a "Security-First" web architecture. Below is th
 
 ### 3) Edge Security Implementation (WAF)
 - I have associated an AWS WAF Web ACL with the CloudFront distribution.
-- I have enabled AWS Managed Rule Groups, including the "Core Rule Set" and "IP Reputation" list, to mitigate common cyber threats.
 
 ### 4) Deployment & Verification
 - I have uploaded a professional, responsive index.html portfolio page to the S3 bucket.

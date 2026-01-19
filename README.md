@@ -48,9 +48,16 @@ I have designed and implemented a "Security-First" web architecture. Below is th
 
 ## Screenshots
 - S3 Bucket Permissions (Public Access Blocked)
+  <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/3bfdaa9f-fcc0-44a1-8545-935de74a20f5" />
+
 - CloudFront Origin Settings (OAC Enabled)
+  <img width="1918" height="870" alt="image" src="https://github.com/user-attachments/assets/ff75884f-4dd0-44fc-837b-9636a7edc481" />
+
 - WAF Web ACL (Associated with Distribution)
+  <img width="1917" height="865" alt="image" src="https://github.com/user-attachments/assets/a4e68772-117b-4db3-b8b7-22c9ca787605" />
+
 - Live Secure Website (HTTPS Padlock Visible)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4bd029d-bcb5-49bc-a07c-3b6f68c78ee2" />
 
 ## Notes / Future Improvements
 - Implement Infrastructure as Code (IaC) using Terraform to automate the deployment of the entire stack.

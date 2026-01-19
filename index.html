@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Engineer Portfolio</title>
+    <style>
+        :root {
+            --primary: #232f3e; /* AWS Dark Blue */
+            --accent: #ff9900;  /* AWS Orange */
+            --bg: #f8f9fa;
+            --text: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: var(--text); background: var(--bg); }
+        header { background: var(--primary); color: white; padding: 2rem 1rem; text-align: center; }
+        .container { max-width: 1000px; margin: auto; padding: 2rem; }
+        .section { margin-bottom: 3rem; }
+        h2 { border-bottom: 3px solid var(--accent); display: inline-block; padding-bottom: 5px; }
+        
+        /* Project Cards */
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .card { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; flex: 1 1 calc(45% - 20px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .card h3 { color: var(--primary); margin-top: 0; }
+        .tag { background: #e7f3ff; color: #007bff; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; }
+        
+        .btn { background: var(--accent); color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin-top: 10px; }
+        .btn:hover { opacity: 0.9; }
+        footer { text-align: center; padding: 2rem; background: #eee; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cloud Engineering Portfolio</h1>
+    <p>Aspiring Solutions Architect | AWS SAA | Cloud Security Enthusiast</p>
+</header>
+
+<div class="container">
+    
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I have dedicated my career to building secure, scalable, and automated cloud infrastructures. I am currently pursuing the <strong>AWS Solutions Architect Associate</strong> certification with long-term goals of achieving the <strong>Security Specialty</strong> and <strong>SAP Professional</strong> certifications.</p>
+    </div>
+
+    <div class="section">
+        <h2>Learning & Certifications</h2>
+        <ul>
+            <li><strong>AWS Certified Solutions Architect – Associate</strong> (In Progress)</li>
+            <li><strong>AWS Certified Security – Specialty</strong> (Planned)</li>
+            <li><strong>AWS Certified Solutions Architect – Professional</strong> (Planned)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Hands-on Cloud Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="tag">Automation</span>
+                <h3>Automated DR Vault</h3>
+                <p>I have implemented an event-driven backup system using Lambda and EventBridge to automate EBS snapshots based on resource tagging.</p>
+                <a href="https://github.com/YOUR_USERNAME/automated-dr-vault" class="btn">View on GitHub</a>
+            </div>
+
+            <div class="card">
+                <span class="tag">Security</span>
+                <h3>Secure Static Website</h3>
+                <p>I have deployed a globally distributed website using S3, CloudFront, and AWS WAF to enforce edge security and private origin access.</p>
+                <a href="#" class="btn">Coming Soon</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 | Built with AWS S3, CloudFront & WAF</p>
+</footer>
+
+</body>
+</html>
